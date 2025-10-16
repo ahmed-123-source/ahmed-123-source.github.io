@@ -48,7 +48,7 @@ const en = {
 const fr = {
   'hero.title': 'Ahmed Charfeddine',
   'hero.subtitle': 'Ingénieur Logiciel',
-  'hero.description': 'Je développe des applications web modernes, évolutives et orientées utilisateur.Remplacement de formulaire papier Simplification de la saisie des données Sécurisationpar cryptage Gestion de profils/rôle Interface utilisateur réactive',
+  'hero.description': "Je développe des applications web et mobile modernes, évolutives et centrées sur l'utilisateur.",
   'hero.viewWork': 'Voir mes projets',
   'hero.getInTouch': 'Me contacter',
   'about.title': 'À propos de moi',
