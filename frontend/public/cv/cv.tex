@@ -1,0 +1,199 @@
+%-------------------------
+% Resume in LateX
+% Author : Ahmed Charfeddine
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Ahmed Charfeddine}} & Email: \href{mailto:ahmed.charfeddine216@gmail.com}{ahmed.charfeddine216@gmail.com}\\
+  Full-Stack Developer | Web \& Mobile& Mobile: \href{tel:+21654946860}{+216-54-946-860} \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {ESPRIT - Private Higher School of Engineering and Technology}{Ariana, Tunisia}
+      {Master’s Degree in Information Technology}{Sep 2019 -- Nov 2024}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {SQLI Services }{Manouba, Tunisia}
+      {Full-Stack Web and Mobile Developer}{Apr 2025 -- Present}
+\begin{itemize}
+\item Developed a mobile application using Firebase and Java to support users interested in Mediterranean dieting and fitness with healthy habit courses and interactive challenges
+\item Built an interactive game module to evaluate users' understanding of the Mediterranean diet with instant feedback and performance analysis
+\item Implemented a fitness and diet chatbot that provides personalized guidance, analyzes food images for calories and ingredients, and checks recipe healthiness
+\item Constructed an Instagram-style community for dieting and fitness, enabling users to share recipes, follow others, comment, react, and chat with friends
+\end{itemize}
+      
+% --------Multiple Positions Heading------------
+  %  \resumeSubSubheading
+  %   {Software Engineer I}{Oct 2014 -- Sep 2016}
+  %   \resumeItemListStart
+  %      \resumeItem{Apache Beam}
+  %        {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+  %   \resumeItemListEnd
+
+%-------------------------------------------
+
+    \resumeSubheading
+      {I-Lead Consulting}{Charguia, Tunisia}
+      {Full-Stack Developer}{Feb 2024 -- July 2024}
+\begin{itemize}
+\item Implemented a code editor for a candidate skill-testing platform using Spring Boot and Angular with 13 multi-language compiler integration
+\item Created sample test cases and expected outputs for automated evaluation of submitted solutions using Docker for containerization
+\item Ensured scalability and consistent environment setup across different programming language assessments
+\end{itemize}
+
+    \resumeSubheading
+      {ESPRIT}{Ariana, Tunisia}
+      {Mobile Developer}{June 2023 -- Aug 2023}
+ \begin{itemize}
+\item Developed a medical mobile application using Kotlin and Firebase for predicting venous thrombosis probability based on user medical data
+\item Integrated data analysis algorithms and secure data handling for medical risk assessment
+\end{itemize}
+
+  \resumeSubHeadingListEnd
+
+
+%-----------Technical Skills-----------------
+\section{Technical Skills}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Programming Languages}
+      {Java, Kotlin, JavaScript, TypeScript, PHP, HTML/CSS.}
+    \resumeSubItem{Frameworks \& Libraries}
+      {Spring Boot, Angular, Symfony, React, QT.}
+    \resumeSubItem{Databases}
+      {MySQL, PostgreSQL, MongoDB, Firebase, H2, NoSQL.}
+    \resumeSubItem{Tools \& Technologies}
+      {Github, Docker, Gitlab, Google Cloud, Postman, REST APIs, Agile Methodology.}
+  \resumeSubHeadingListEnd
+
+
+% --------CERTIFICATIONS------------
+\section{Certifications}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Saylor Academy}
+      {ESL005: Business-Proficient English as a Second Language.}
+    \resumeSubItem{Coursera}
+      {Messenger ChatBot Certificate.}
+    \resumeSubItem{Bourguiba School of Languages (2014 - 2018)}
+      {Japanese Language Program.}
+    \resumeSubItem{Sololearn}
+      {JavaScript Certification.}
+  \resumeSubHeadingListEnd
+
+
+  % --------LANGUAGES------------
+\section{Languages}
+
+  \resumeSubHeadingListStart
+    \resumeSubItem{Tunisian}
+      {Native.}
+    \resumeSubItem{French}
+      {Fluent.}
+    \resumeSubItem{Arabic}
+      {Fluent.}
+    \resumeSubItem{English}
+      {Fluent.}
+    \resumeSubItem{Japanese}
+      {Basic - 4 years of language training.}
+  \resumeSubHeadingListEnd
+
+%-------------------------------------------
+\end{document}

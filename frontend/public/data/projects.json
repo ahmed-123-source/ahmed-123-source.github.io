@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Portfolio Website",
+    "year": 2025,
+    "shortDescription": "Personal portfolio built with React and Tailwind.",
+    "technologies": ["React", "Tailwind", "JavaScript"],
+    "richContent": "<p>This portfolio showcases my projects, achievements, and events. Built as a SPA and deployable for free via GitHub Pages.</p>"
+  },
+  {
+    "id": 2,
+    "name": "Spring Boot API",
+    "year": 2024,
+    "shortDescription": "REST API backend to serve portfolio data.",
+    "technologies": ["Spring Boot", "Java"],
+    "richContent": "<p>Optional backend to serve dynamic content. The frontend can also run without it using static JSON.</p>"
+  }
+]

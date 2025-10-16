@@ -1,0 +1,10 @@
+[
+  {
+    "id": 1,
+    "name": "Tech Conference Talk",
+    "date": "2024-05-20",
+    "location": "Tunis",
+    "description": "<p>Gave a talk about modern frontend tooling and DX improvements.</p>",
+    "url": "https://example.com/talk"
+  }
+]
